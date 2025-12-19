@@ -3,3 +3,4 @@ __pycache__/
 vitoria_*.txt
 *.pyc
 .streamlit/
+pesquisa_viagem.txt
