@@ -1,12 +1,10 @@
 from groq import Groq
 
-# 1. Sua chave do Groq
 client = Groq(api_key="")
 
 print("Iniciando Agente no Groq (Llama 3.3)...")
 
 try:
-    # Trocamos para o modelo atualizado: llama-3.3-70b-versatile
     completion = client.chat.completions.create(
         model="llama-3.3-70b-versatile", 
         messages=[

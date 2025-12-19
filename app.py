@@ -58,8 +58,6 @@ if st.button("🚀 Pesquisar Passagens e Preços"):
         st.subheader(f"🎫 Opções de Voos: {origem} ➡️ {destino}")
         st.markdown(resultado)
         
-        # 4. Criando links "mágicos" automáticos (Google Flights)
-        # Formato: https://www.google.com/travel/flights?q=Flights%20to%20ROM%20from%20SAO%20on%202025-05-20
         link_google = f"https://www.google.com/travel/flights?q=Flights%20to%20{destino}%20from%20{origem}%20on%20{data_ida}"
         
         st.divider()
