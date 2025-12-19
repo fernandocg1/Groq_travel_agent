@@ -4,8 +4,8 @@ from tavily import TavilyClient
 from datetime import datetime
 
 # --- CONFIGURAÇÃO ---
-GROQ_API_KEY = ""
-TAVILY_API_KEY = ""
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+TAVILY_API_KEY = st.secrets["TAVILY_API_KEY"]
 
 client = Groq(api_key=GROQ_API_KEY)
 tavily = TavilyClient(api_key=TAVILY_API_KEY)
